@@ -10,7 +10,7 @@ import android.view.animation.AlphaAnimation;
 import android.view.animation.Animation;
 import android.widget.ImageView;
 
-import com.lin.mu.Main2Activity;
+import com.lin.mu.MainActivity;
 import com.lin.mu.R;
 import com.lin.mu.utils.BitmapUtils;
 
@@ -39,7 +39,7 @@ public class SplashActivity extends FragmentActivity {
 
             @Override
             public void onAnimationEnd(Animation animation) {
-                Intent intent = new Intent(SplashActivity.this, Main2Activity.class);
+                Intent intent = new Intent(SplashActivity.this, MainActivity.class);
                 startActivity(intent);
                 finish();
             }

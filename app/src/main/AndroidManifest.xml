@@ -31,7 +31,7 @@
             android:name=".activity.WebViewActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Main2Activity"
+            android:name=".MainActivity"
             android:launchMode="singleTask"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme" />
