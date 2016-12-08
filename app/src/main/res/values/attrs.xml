@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CustomCircleProgress">
+        <!-- 默认圆的颜色 -->
+        <attr name="progress_default_color" format="color"/>
+        <!-- 进度圆的颜色 -->
+        <attr name="progress_reached_color" format="color"/>
+        <!-- 进度条的高度 -->
+        <attr name="progress_reached_height" format="dimension"/>
+        <!-- 无进度时(默认圆)的边框高 -->
+        <attr name="progress_default_height" format="dimension"/>
+        <!-- 圆的半径 -->
+        <attr name="circle_radius" format="dimension"/>
+    </declare-styleable>
+
+
+    <declare-styleable name="CircleImageView">
+        <attr name="border_width" format="dimension" />
+        <attr name="border_color" format="color" />
+    </declare-styleable>
+
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="pic_type">
+        <item>社会</item>
+        <item>明星</item>
+        <item>娱乐</item>
+        <item>美女</item>
+        <item>生活</item>
+        <item>萌宠</item>
+    </array>
+
+</resources>
